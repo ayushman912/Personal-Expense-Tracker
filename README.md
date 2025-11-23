@@ -315,5 +315,5 @@ This project is created for educational purposes as part of a university assignm
 
 ## Author
 
-Created for CS Course - Personal Expense Tracker Assignment
+Ayushman Mishra (Leader)
 
