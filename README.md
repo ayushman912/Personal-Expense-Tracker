@@ -315,7 +315,7 @@ This project is created for educational purposes as part of a university assignm
 
 ## Author
 
-Ayushman Mishra (Leader)
-Daksh Sharma
-Akshay Kumar
+- Ayushman Mishra
+- Daksh Sharma
+- Akshay Kumar
 
