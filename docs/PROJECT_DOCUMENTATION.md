@@ -125,8 +125,8 @@ The Personal Expense Tracker follows a three-tier client-server architecture:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              PRESENTATION TIER                               │
-│                            (JavaFX Client Module)                            │
+│                              PRESENTATION TIER                              │
+│                            (JavaFX Client Module)                           │
 │  ┌───────────────┐  ┌───────────────┐  ┌─────────────────────────────────┐  │
 │  │ UI Controllers│  │ SyncManager   │  │ ConnectivityManager             │  │
 │  │ (Login, Main) │  │ (Offline Ops) │  │ (Network Monitoring)            │  │
@@ -141,8 +141,8 @@ The Personal Expense Tracker follows a three-tier client-server architecture:
                                │ REST API (JSON over HTTP)
                                ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              APPLICATION TIER                                │
-│                           (Jetty Server Module)                              │
+│                              APPLICATION TIER                               │
+│                           (Jetty Server Module)                             │
 │  ┌───────────────┐  ┌───────────────────────────────────────────────────┐   │
 │  │  AuthFilter   │──│ Servlets: AuthServlet, RegisterServlet,           │   │
 │  │  (Security)   │  │   TransactionServlet, CategoryServlet,            │   │
@@ -165,8 +165,8 @@ The Personal Expense Tracker follows a three-tier client-server architecture:
                                            │ JDBC
                                            ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                                DATA TIER                                     │
-│                         (MySQL 8.0+ or H2 Database)                          │
+│                                DATA TIER                                    │
+│                         (MySQL 8.0+ or H2 Database)                         │
 │  ┌─────────┐    ┌──────────────┐    ┌──────────────┐                        │
 │  │  users  │◄───│  categories  │◄───│ transactions │                        │
 │  └─────────┘    └──────────────┘    └──────────────┘                        │
