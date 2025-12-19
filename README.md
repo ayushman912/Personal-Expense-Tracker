@@ -1142,10 +1142,6 @@ Use curl or any REST client to interact with the API.
 
 This project is created for educational purposes as part of a university assignment.
 
-> To use a different license, replace this section with your chosen license (e.g., MIT, Apache 2.0) and add a `LICENSE` file.
-
----
-
 ## Contact & Credits
 
 **Maintainer:** `Ayushman Mishra` — `Team Lead`
