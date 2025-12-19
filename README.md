@@ -120,7 +120,8 @@ PET2/
 ├── mvnw, mvnw.cmd                   # Maven wrapper
 ├── README.md                        # This file
 ├── docs/
-│   └── api.md                       # API documentation
+│   ├── api.md                       # API documentation
+|   └── PROJECT_DOCUMENTATION.md     # Project documentation
 │
 ├── shared/                          # Shared module (models, utils)
 │   ├── pom.xml
